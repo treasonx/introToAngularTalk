@@ -5,3 +5,9 @@ main {
   padding: 10px;
 }
 
+.container {
+  padding: 10px;
+  margin: 25px;
+  border: 1px solid black;
+}
+
