@@ -10,7 +10,7 @@
     <header><h1>PubSub Demo</h1></header>
     <main>
 
-    <div class="container" style="background-color:{{lightup}};" ng-controller="pubsubCtrl">
+      <div class="container" style="background-color:{{lightup}};" ng-controller="pubsubCtrl">
         <button ng-click="broadcast()">Broadcast</button>
         <button ng-click="emit()">Emit</button>
 
@@ -21,12 +21,19 @@
           <div class="container" style="background-color:{{lightup}};" ng-controller="pubsubCtrl">
             <button ng-click="broadcast()">Broadcast</button>
             <button ng-click="emit()">Emit</button>
+            <br>
 
-            <div class="container" style="background-color:{{lightup}};" ng-controller="pubsubCtrl">
+            <div class="container" style="float: left;display:inline-block;background-color:{{lightup}};" ng-controller="pubsubCtrl">
               <button ng-click="broadcast()">Broadcast</button>
               <button ng-click="emit()">Emit</button>
 
             </div>
+            <div class="container" style="float: right;display: inline-block;background-color:{{lightup}};" ng-controller="pubsubCtrl">
+              <button ng-click="broadcast()">Broadcast</button>
+              <button ng-click="emit()">Emit</button>
+
+            </div>
+            <br style="clear:both;">
 
           </div>
 
