@@ -5,7 +5,10 @@
 ## What Is AngularJS
 
 * is it MVC?
+<<<<<<< HEAD
 * omg onclick!!!!
+=======
+>>>>>>> gh-pages
 * how does it compare to xyz framework
 
 ## What makes it different
@@ -20,19 +23,55 @@
 
 ## How I use angular
 
+<<<<<<< HEAD
 ## Scope
 
+=======
+* Used on 500+ domains about 10 million uniques/month
+* Empower designers to build UI quickly
+* configuration driven composition of UI
+* I wrap complex things into directives, others use them.
+* IE8+
+
+## Scope
+
+* (Code) Simple Scope Demo - done
+
+omg onclick!!!!
+
+>>>>>>> gh-pages
 ### What the hell is the scope?
 
 ### Scope Works with Bindings
 
 Bindings can be a great way to come up with new dubstep DJ names. I personally like ng-transclude!
 
+<<<<<<< HEAD
 ### Scope Life cycle
 
 ### Scope Inheritence
 
 ### Scope Code Examples
+=======
+* (Code) setup a controller simple intro to directives - done 
+
+### Scope Life cycle
+
+* (Code) start off with clock demo - done
+
+### Scope Inheritence
+
+* (Code) scope inheritence demo - done
+
+### Scope PubSub Demo
+
+* (Code) Broadcast - done
+
+* (Code) Emit - done
+
+### What is an angular expression?
+
+>>>>>>> gh-pages
 
 ## Tips
 
