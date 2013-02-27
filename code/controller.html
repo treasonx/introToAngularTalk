@@ -12,14 +12,15 @@
 
       <h3>Never Gonna Do</h3>
       <ul>
-        <li ng-repeat="todo in todos"><button ng-click="remove($index)">Nope</button> {{todo}}</li>
+        <li ng-repeat="todo in todos">
+          <button ng-click="remove($index)">Nope</button> {{todo}}
+        </li>
       </ul>
 
       <form ng-submit="add()">
         <input type="text" ng-model="newDo"></input>
         <input type="submit" value="Add"></input>
       </form>
-        
     </main>
   </body>
 </html>

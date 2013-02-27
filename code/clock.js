@@ -7,17 +7,22 @@
 
     var tickTimeout = 1000;
 
+    function updateTime() {
+      $scope.time = new Date().toLocaleTimeString();
+    }
+
     function scheduleTick() {
       setTimeout(tick, tickTimeout);
     }
 
     function tick() {
-      $scope.time = new Date().toLocaleTimeString();
+      updateTime();
       console.log($scope.time);
       scheduleTick();
     };
 
-    tick();
+    updateTime();
+    scheduleTick();
 
   });
 

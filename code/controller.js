@@ -12,12 +12,12 @@
     ];
 
     $scope.add = function() {
-      this.todos.push(this.newDo);
-      this.newDo = '';
+      $scope.todos.push(this.newDo);
+      $scope.newDo = '';
     };
 
     $scope.remove = function(idx) {
-      this.todos.splice(idx, 1);
+      $scope.todos.splice(idx, 1);
     };
 
   });
