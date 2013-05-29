@@ -16,11 +16,11 @@
     }
 
     function tick() {
-      //$scope.$apply(function() {
+      $scope.$apply(function() {
 
         updateTime();
 
-      //});
+      });
       console.log($scope.time);
       scheduleTick();
     };
