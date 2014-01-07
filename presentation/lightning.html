@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Getting Started with Angular</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <style>
+      .reveal section img {
+        border: none;
+        background: transparent;
+        box-shadow: none;
+      }
+    </style>
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+      
+<div class="slides">
+    <section>
+    <p>
+    <img src="imgs/angular.png" style="border:none;box-shadow:none;">
+    <br>
+    <br>
+</p>
+<h2><strike>Crash Course</strike></h2>
+    <h1>What R This?</h1>
+        <a href="https://plus.google.com/106674157563775429543/posts">+James Morrin</a>
+        <br>
+        <a href="http://bamgreeneggsandham.com">BamGreenEggsAndHam.com</a>
+        <br>
+    </p>
+<p>
+<br>
+</p>
+</section>
+<section>
+    <h2>Demo</h2>
+    <p>OMG No JavaScript!</p>
+    <div>
+        <a href="../code/simple.html" target="_blank">See the demo!</a>
+    </div>
+</section>
+<section>
+    <h2>How is angular different?</h2>
+    <div>
+        <ul>
+            <li>Full testing story</li>
+            <li>Two way data bindings</li>
+            <li>Dependency Injection</li>
+            <li>Teach HTML new tricks</li>
+        </ul>
+    </div>
+</section>
+<section>
+    <h2>What is the scope?</h2>
+    <div>
+        <ul>
+            <li>The "backbone" if your application</li>
+            <li>provides data to the views</li>
+            <li>acts as a pubsub</li>
+            <li>observes changes and notifies views</li>
+        </ul>
+    </div>
+</section>
+<section>
+    <h2>Scope Life cycle</h2>
+    <div>
+        <div>Not part of lifecycle</div>
+        <a href="../code/clock.html" target="_blank">Broken Demo</a>
+    </div>
+    <br>
+    <div>
+        <div>Part of lifecycle</div>
+        <a href="../code/clock_fixed.html" target="_blank">Working Demo</a>
+    </div>
+</section>
+<section>
+    <h2>Scope Inheritance</h2>
+    <div>
+        <a href="../code/mawmaw.html" target="_blank">Inheritance Demo</a>
+    </div>
+</section>
+<section>
+    <h2>Pubsub on the Scope!</h2>
+    <div>
+        <a href="../code/pubsub.html" target="_blank">PubSub Demo</a>
+    </div>
+</section>
+<section>
+  <h2>AngularJS The Bad Parts!</h2>
+
+</section>
+<section>
+  <h2>Naming (module)</h2>
+  <p>module !== commonjs module</p>
+  <p>module !== AMD module</p>
+  <p>module !== Module Pattern</p>
+</section>
+<section>
+  <h2>WTF is an Angular Module?</h2>
+  <img src="imgs/dontjudgeme.jpg">
+
+</section>
+<section>
+  <h2>Naming ($scope)</h2>
+  <p>$scope !== js scope</p>
+</section>
+<section>
+  <h2>No Data Model</h2>
+  <p>$scope is not your model!</p>
+  <p>Don't treat $scope like a model</p>
+  <p>If you do.....</p>
+</section>
+<section>
+  <h2>Better hope future you doesnt have a</h2>
+  <img src="imgs/delorean.jpg">
+</section>
+<section>
+  <h2>Or a</h2>
+  <img src="imgs/tardis.jpg">
+</section>
+<section>
+  <h2>Because future you will...</h2>
+  <img src="imgs/horsechrome.jpeg">
+</section>
+<section>
+  <h2>Burn your house down..</h2>
+  <img src="imgs/burnhouse.jpg">
+</section>
+<section>
+  <h2>Directives</h2>
+  <p>Unit of code resuse in Angular</p>
+  <p>No easy way to extend or inherit from Another Directive</p>
+</section>
+<section>
+  <h2>AngularJS wants to own the WORLD!</h2>
+  <img src="imgs/pinky.jpg" style="height: 75%">
+</section>
+<section>
+  <h2>AngularJS The Good Parts!</h2>
+</section>
+<section>
+  <h2>2 way data bindings</h2>
+  <img src="imgs/dommanip.png">
+</section>
+<section>
+  <h2>Powerful template engine</h2>
+  <code>
+    {{attr | lowerCase | upperCase | iHaveNoIdeaWhatImDoing }}
+  </code>
+</section>
+<section>
+  <h2>Dependency Injection</h2>
+  <img src="imgs/OMG.gif">
+</section>
+<section>
+  <h2>Testing</h2>
+</section>
+<section>
+    <h1>Resources!</h1>
+    <div>
+      <img src="imgs/catBath.gif" width="500">
+    </div>
+</section>
+<section>
+    <h2>The Official Docs</h2>
+    <img src="imgs/angularHome.png" width="500">
+    <div>
+      <a href="http://docs.angularjs.org/api/">API Docs</a><br>
+      <a href="http://docs.angularjs.org/guide/">Developer Guide</a>
+    </div>
+    <div>
+      <br>
+    <h3>But.....</h3>
+    </div>
+</section>
+<section>
+    <h2>They kinda suck!</h2>
+<blockquote>
+  The advantage of transclusion is that the linking function receives a transclusion function which is pre-bound to the correct scope. In a typical setup the widget creates an isolate scope, but the transclusion is not a child, but a sibling of the isolate scope. This makes it possible for the widget to have private state, and the transclusion to be bound to the parent (pre-isolate) scope.&nbsp;
+</blockquote>
+</section>
+<section>
+  <h2>WAT?</h2>
+  <img src="imgs/omgsnacks.gif">
+</section>
+    <section>
+        <h2>Video Resources</h2>
+        <img src="imgs/youtube.png" width="500">
+        <div>
+            <a href="http://egghead.io">egghead.io</a>
+        </div>
+        <div>
+            <a href="http://www.youtube.com/watch?v=ZhfUv0spHCY">Best Practices</a>
+        </div>
+    </section>
+    <section>
+        <h2>Code Examples</h2>
+        <div>
+            <a href="http://plnkr.co/">Plnkr.co</a>
+        </div>
+        <div>
+          <img src="imgs/plunker.png" width="800">
+        </div>
+    </section>
+    <section>
+      <h2>Thanks!</h2>
+      <ul>
+        <li>Twitter: @treasonx</li>
+        <li>GitHub: treasonx</li>
+        <li>Blog: BamGreenEggsAndHam.com</li>
+      </ul>
+    </section>
+</div>
+      
+      
+     
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
